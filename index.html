@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./assets/styles/base.css">
+    <link rel="stylesheet" href="./assets/styles/grid.css">
+    <link rel="stylesheet" href="./assets/skin/color-5.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/responsive.css">
+
+    <!-- style switcher -->
+    <link rel="stylesheet" href="./assets/skin/color-5.css" class="alternate-style" title="color-5" disabled> 
+    <link rel="stylesheet" href="./assets/skin/color-1.css" class="alternate-style" title="color-1" disabled> 
+    <link rel="stylesheet" href="./assets/skin/color-2.css" class="alternate-style" title="color-2" disabled> 
+    <link rel="stylesheet" href="./assets/skin/color-3.css" class="alternate-style" title="color-3" disabled> 
+    <link rel="stylesheet" href="./assets/skin/color-4.css" class="alternate-style" title="color-4" disabled> 
+
+    <link rel="stylesheet" href="./assets/styles/style-switcher.css">
+
+
+</head>
+<body>
+    <!-- main-container -->
+    <div class="main-container">
+        <!-- taskbar start -->
+        <div class="sidebar ">
+            <div class="logo">
+                <a href="" class="">
+                    <span>A</span>tlas
+                </a>
+            </div>
+
+            <div class="menu-toggler df"><span></span></div>
+
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="#user" class="menu-link active">
+                        <i class="fa fa-home"></i>
+                        Bản Thân
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#education" class="menu-link">
+                        <i class="fa fa-user"></i>
+                        Học Vấn
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#project" class="menu-link">
+                        <i class="fa fa-list"></i>
+                        Dự Án
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contact" class="menu-link">
+                        <i class="fa fa-comments"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- taskbar end -->
+        <div class="main-contain">
+            <div class="home section active" id="user">
+                <div class="container grid wide">
+                    <div class="row">
+                        <div class="col l-7">
+                            <div class="home-user">
+                                <div class="home-user__wrap">
+                                    <h3 class="heading home-user__name"> Lê Tiến Thành</h3>
+                                    <p class="home-user__position"> - Thực Tập Sinh -</p>
+                                </div>
+
+                                <div class="home-user__cv">
+                                    <a href="./assets/CV/Le-Tien-Thanh.pdf" class="btn user__cv-title">Xem CV chi tiết</a>
+                                </div>
+                            </div>
+                            
+                            <div class="home-info">
+                                <div class="row mb-20">
+                                    <div class="col l-6 c-12 mb-15">
+                                        <h4 class="heading home-info__title">Điện thoại:</h4>
+                                        <a href="tel: 0378550368" class="home-info__desript">0378550368</a>
+                                    </div>
+                                    <div class="col l-6 c-12 mb-15">
+                                        <h4 class="heading home-info__title">Ngày sinh:</h4>
+                                        <p class="home-info__desript">09-09-1999</p>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-20">
+                                    <div class="col l-6 c-12 mb-15">
+                                        <h4 class="heading home-info__title">Địa chỉ:</h4>
+                                        <p class="home-info__desript">Tam Hưng - Thanh Oai - Hà Nội</p>
+                                    </div>
+                                    <div class="col l-6 c-12 mb-15">
+                                        <h4 class="heading home-info__title">Email:</h4>
+                                        <p class="home-info__desript">letienthanh991999@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="home-target">
+                                <div class="home-target__title">
+                                    <h3 class="heading">
+                                        <i class="fa-solid fa-bullseye"></i>
+                                        Mục Tiêu Nghề Nghiệp
+                                    </h3>
+                                    <div class="home-target__content">
+                                        <h4 class="heading">Mục Tiêu Ngắn Hạn:</h4>
+                                        <p class="home-target__descript">
+                                            - Có một công việc ổn định phù hợp với bản thân. <br>
+                                            - Luôn cố gắng nâng cao trình độ để có thể trở thành một
+                                            nhân viên xuất sắc trong lĩnh vực mình đảm nhiệm. <br>
+                                            - Học hỏi, rèn luyện tích lũy thêm kinh nghiệm, kiến thức để bản thân ngày một hoàn thiện hơn.
+                                        </p>
+                                    </div>
+                                    <div class="home-target__content">
+                                        <h4 class="heading">Mục Tiêu Dài Hạn:</h4>
+                                        <p class="home-target__descript">
+                                            - Nâng cao trình độ bản thân để trở thành một Web Developer chuyên nghiệp.
+                                        </p>
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col l-5">
+                            <div class="home-img df">
+                                <img src="./assets/img/anhthe.jpg" alt="">
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section education" id="education">
+                <div class="container grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <h3 class="headding education-heading">
+                                <i class="fa-solid fa-book-open"></i>
+                                Học Vấn
+                            </h3>
+
+                            <div class="education-school">
+                                <h4 class="school-name">Trường Học Viện Công Nghê Bưu Chính Viễn Thông.</h4>
+                                <p class="shool-text">Chuyên ngành: Điện tử Viễn Thông.</p>
+                                <p class="shool-text">Xếp loại học lực: Khá.</p>
+                                <p class="shool-text">
+                                    - GPA: 2.8 / 4.0
+                                </p>
+                                <p class="shool-text">
+                                    Trong quá trình học tập tại trường được trang bị các kiến thức cần thiết về Điện tử Viễn
+                                    thông và Công nghệ thông tin.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="col l-12">
+                            <h4 class="headding skill-headding">
+                                Kiến Thức & Kỹ Năng
+                            </h4>
+
+                            <div class="education-skill">
+
+                                <div class="education-skill__item">
+                                    <h4 class="heading">Ngôn ngữ</h4>
+                                    <p class="shool-text">
+                                        - C, HTML/CSS và JavaScript.
+                                    </p>
+                                    <p class="shool-text">
+                                        - Có khả năng đọc và tìm kiếm tài liệu bằng Tiếng Anh.
+                                    </p>
+                                </div>
+
+                                <div class="education-skill__item">
+                                    <h4 class="heading">Công cụ</h4>
+                                    <p class="shool-text"> 
+                                        - Visual Sudio Code, Github. 
+                                    </p>
+                                    <p class="shool-text"> 
+                                        - Photoshop, Figma.
+                                    </p>
+                                </div>
+
+                                <div class="education-skill__item">
+                                    <h4 class="heading">Học tập</h4>
+                                    <p class="shool-text"> 
+                                        - Một lần đạt học bổng học tập tại Học viện Công nghệ Bưu chính Viễn thông.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section portfolio " id="project">
+                <div class="container grid wide">
+
+                    <!-- <h3 class="heading portfolio-heading ">
+                       
+                        Dự Án Cá Nhân
+                    </h3> -->
+
+                    <h3 class="headding education-heading mb-50">
+                        <i class="fa-solid fa-briefcase"></i>
+                        Dự Án Cá Nhân
+                    </h3>
+
+                    <div class="slider">
+                        <div class="slider__container">
+                            <div class="slider__wrapper">
+    
+                                <div id="lastClone" class="slider__item">
+                                    <div  class="slider__item-img">
+                                        <img src="./assets/img/img-1.jpg" alt="">
+                                        <div class="overlay">
+                                            <a href="https://thanh991999.github.io/Web_shoppe/" class="btn">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slider__item">
+                                    <div class="slider__item-img">
+                                        <img src="./assets/img/img-4.jpg" alt="">
+                                        <div class="overlay">
+                                            <a href="https://thanh991999.github.io/Decaclo_figma/" class="btn">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slider__item">
+                                    <div class="slider__item-img">
+                                        <img src="./assets/img/img-3.jpg" alt="">
+                                        <div class="overlay">
+                                            <a href="https://thanh991999.github.io/Web_Simen/" class="btn">Xem Chi Tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                   
+                                <div class="slider__item">
+                                    <div class="slider__item-img">
+                                        <img src="./assets/img/img-2.jpg" alt="">
+                                        <div class="overlay">
+                                            <a href="https://thanh991999.github.io/Bali_Figma/" class="btn">Xem Chi Tiết</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                                   
+                                <div class="slider__item">
+                                    <div class="slider__item-img">
+                                        <img src="./assets/img/img-7.jpg" alt="">
+                                        <div class="overlay">
+                                            <a href="https://thanh991999.github.io/Ninja_mail_figma/" class="btn">Xem Chi Tiết</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider__item-img">
+                                        <img src="./assets/img/img-5.jpg" alt="">
+                                        <div class="overlay">
+                                            <a href="https://thanh991999.github.io/musicPlayer/" class="btn">Xem Chi Tiết</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider__item-img">
+                                        <img src="./assets/img/img-8.jpg" alt="">
+                                        <div class="overlay">
+                                            <a href="https://thanh991999.github.io/Wine_Tours/" class="btn">Xem Chi Tiết</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="slider__item">
+                                    <div class="slider__item-img">
+                                        <img src="./assets/img/img-1.jpg" alt="">
+                                        <div class="overlay">
+                                            <a href="https://thanh991999.github.io/Web_shoppe/" class="btn">Xem Chi Tiết</a>
+                                        </div>
+                                    </div> 
+                                </div>
+    
+                                <div id="firstClone" class="slider__item">
+                                    <div  class="slider__item-img">
+                                        <img src="./assets/img/img-4.jpg" alt="">
+                                        <div class="overlay">
+                                            <a href="https://thanh991999.github.io/Decaclo_figma/" class="btn">Xem Chi Tiết</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                                
+                            </div>
+                            <div class="pre-btn">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+    
+                            <div class="next-btn">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+    
+                        </div>
+
+                        <div class="slider-dot__wrap">
+                            <i class="slider-dot active fa-solid fa-circle"></i>
+                            <i class="slider-dot  fa-solid fa-circle"></i>
+                            <i class="slider-dot  fa-solid fa-circle"></i>
+                            <i class="slider-dot  fa-solid fa-circle"></i>
+                            <i class="slider-dot  fa-solid fa-circle"></i>
+                            <i class="slider-dot  fa-solid fa-circle"></i>
+                            <i class="slider-dot  fa-solid fa-circle"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section contact" id="contact">
+                <div class="container grid wide">
+                    
+                    <h3 class="headding education-heading mb-50">
+                        <i class="fa fa-comments"></i>
+                        Liên Lạc
+                    </h3>
+
+                    <h4 class="subheading heading">Một Số Phương Tiện Truyền Thông Của Mình</h4>
+
+                    <div class="row">
+                        <div class="col l-4 c-4 m-4">
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/thanh.letien.5817" class="">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <div class="social-name">Facebook</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 c-4 m-4">
+                            <div class="social-icon">
+                                <a href="https://github.com/Thanh991999" class="">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <div class="social-name">Github</div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 c-4 m-4">
+                            <div class="social-icon">
+                                <a href="https://www.instagram.com/Thanh.letien.5817/?fbclid=IwAR1FirUTFW1_Ib9S55nGYZg3h2rsLlRqeg0arnX10nr0MqQ_a-h4t1ys4Hg" class="">
+                                    <i class="fa-brands fa-instagram-square"></i>
+                                </a>
+                                <div class="social-name">Instagram</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="subheading heading mt-100">Gửi Email cho mình</h4>
+
+                    <form action="">
+                        <div class="row">
+                           
+                            <div class="col l-6 c-12 m-6 mb-30">
+                                <div class="form-group">
+                                    <input class="form-input" required="" type="text" name="" id="name" placeholder="Name">
+                                </div> 
+                             </div>
+                             <div class="col l-6 c-12 m-6 mb-30">
+                                <div class="form-group">
+                                    <input class="form-input" required="" type="email" name="" id="email" placeholder="Email">
+                                </div> 
+                             </div>
+                             <div class="col l-12 c-12 m-12 mb-30">
+                                <div class="form-group">
+                                    <input class="form-input" type="text" name="" id="phone" placeholder="Subject">
+                                </div> 
+                             </div>
+                             <div class="col l-12 c-12 mb-50">
+                                <div class="form-group">
+                                    <input class="form-input form-mess" type="text" name="" id="company" placeholder="Message">
+                                </div> 
+                             </div>
+                             <div class="form-choose col l-12 c-12">
+                                <div class="form-group">
+                                    <input class="btn btn-submit col" type="submit" value="Send Message">
+                                </div> 
+                             </div>
+     
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Style switcher End -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+
+        <h4>Giao diện màu sắc</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./style-switcher.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+
+}
+
+body.dark {
+    --bg-black-900: #151515;
+    --bg-black-100: #222222;
+    --bg-black-50: #393939;
+    --text-black-900: #ffffff;
+    --text-black-700: #e9e9e9;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+
+html {
+    font-size: 62.5%;
+    line-height: 1.15;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.df {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    margin: 0;
+    color: var(--text-black-900);
+
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
