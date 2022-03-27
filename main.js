@@ -74,6 +74,18 @@ const menuActive = $$('.menu-link');
 
 menuActive.forEach(function(item, index) {
     item.addEventListener('click',(e) => {
+
+        if(document.querySelector('.back-section'))
+        {
+            document.querySelector('.section.back-section').classList.remove('back-section');
+        }
+        
+        
+        if(document.querySelector('.menu-link.active').classList.contains('active'))
+        {
+            document.querySelector('.section.active').classList.add('back-section');
+        }
+
         document.querySelector('.menu-link.active').classList.remove('active');
         document.querySelector('.section.active').classList.remove('active');
         e.target.classList.add('active')

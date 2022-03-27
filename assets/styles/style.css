@@ -160,6 +160,11 @@
     animation: slideSection 1s ease;
 }
 
+.section.back-section {
+    z-index: 1;
+    
+}
+
 
 .home {
     display: flex;
